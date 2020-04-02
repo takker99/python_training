@@ -13,10 +13,6 @@ black = "*"
 [requires]
 python_version = "3.8"
 
-[flake8]
-max-line-length = 99
-ignore = ["E203","W503","W504"]
-
 [scripts]
 ngram="python3 ngram.py"
 knock000="python3 knock000.py"
